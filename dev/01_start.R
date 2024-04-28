@@ -35,6 +35,15 @@ golem::set_golem_options()
 ## Install the required dev dependencies ----
 golem::install_dev_deps()
 
+## Install app dependencies ----
+usethis::use_package("dplyr")
+usethis::use_package("bslib")
+usethis::use_package("gt")
+usethis::use_package("gtExtras")
+usethis::use_package("bsicons")
+usethis::use_package("plotly")
+usethis::use_package("glue")
+
 ## Create Common Files ----
 ## See ?usethis for more information
 usethis::use_mit_license("Corentin DUCLOUX") # You can set another license here
@@ -55,7 +64,7 @@ golem::use_recommended_tests()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon() # path = "path/to/ico". Can be an online file.
+# golem::use_favicon("shinybricks.ico") # path = "path/to/ico". Can be an online file.
 # golem::remove_favicon() # Uncomment to remove the default favicon
 
 ## Add helper functions ----

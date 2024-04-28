@@ -31,6 +31,14 @@ golem::add_rstudioconnect_file()
 golem::add_shinyappsio_file()
 golem::add_shinyserver_file()
 
+#rsconnect::setAccountInfo(
+#  "name",
+#  "token",
+#  "secrets"
+#)
+
+rsconnect::accountInfo()
+
 ## Docker ----
 ## If you want to deploy via a generic Dockerfile
 golem::add_dockerfile_with_renv()

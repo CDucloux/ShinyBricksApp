@@ -1,0 +1,47 @@
+li.review {
+  padding-left: 0;
+  border-bottom: 5px dotted #DA291C;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+div.note {
+  float: left;
+  width: 150px;
+  margin-left: 0;
+  margin-bottom: 10px;
+
+}
+
+div.contenu_review {
+  margin-left: 150px;
+}
+
+
+.text_note {
+  font-size: 15px;
+  color: #848484;
+  display: block;
+}
+
+span.stars {
+  margin-right: 3px;
+  font-size: 22px;
+  color: #DA291C;
+  display: block;
+}
+
+.instruction_text {
+  font-weight: bold;
+}
+
+.instructions_url {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructions_url li {
+  font-weight: bold;
+}
+

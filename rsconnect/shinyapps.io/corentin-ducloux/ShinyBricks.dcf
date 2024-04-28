@@ -1,0 +1,14 @@
+name: ShinyBricks
+title: ShinyBricks
+username:
+account: corentin-ducloux
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11880407
+bundleId: 8551121
+url: https://corentin-ducloux.shinyapps.io/ShinyBricks/
+when: 1714301759.09203
+lastSyncTime: 1714301759.09205
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: dev/01_start.R|dev/02_dev.R|dev/03_deploy.R
