@@ -1,3 +1,12 @@
+#' Crée un thème personnalisé pour l'application ShinyBricks.
+#'
+#' Cette fonction crée un thème personnalisé pour l'application ShinyBricks en utilisant le package bslib.
+#'
+#' @return Un thème personnalisé pour l'application ShinyBricks.
+#' @export
+#'
+#' @seealso
+#' \code{\link{bslib::bs_theme}}
 custom_theme <- function() {
   return(
     bslib::bs_theme(
@@ -12,4 +21,3 @@ custom_theme <- function() {
     )
   )
 }
-
