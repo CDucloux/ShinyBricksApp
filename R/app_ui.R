@@ -53,7 +53,7 @@ app_ui <- function(request) {
                 unique(sort(df_prices$theme)),
                 multiple = TRUE,
                 options = list(maxItems = 5),
-                selected = top_5_themes()
+                selected = top_5_themes(df_prices)
               ),
             ),
           ),
